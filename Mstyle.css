@@ -1,0 +1,62 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 a {
+    color: darkblue;
+}
+
+p a {
+    color: crimson;
+}
+
+p a:hover {
+    color: brown;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1.style1 {
+    text-align: center;
+    color: brown;
+    background-color: chartreuse;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 20px;
+}
+
+h1.style2 {
+    text-align: center;
+    color: coral;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: antiquewhite;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: blue;
+}
+
+li a :hover {
+    background-color: darkgreen;
+    font-weight: bold;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+}
